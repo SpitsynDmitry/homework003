@@ -16,6 +16,12 @@ public class Main {
         if (year1 == 0 && year2 !=0)  {System.out.println("Год является високосный");
         } else if (year3 == 0) {System.out.println("Год является високосный");}
 
+        // задача 4
+        int deliveryDistance = 95;
+        int freeDelivery = 20;
+        double chargeDelivery = 40;
+        double time = Math.ceil(1 + ((deliveryDistance - freeDelivery) / chargeDelivery));
+        {System.out.println("Потребуется " + time + " дней");}
 
     }
 }
